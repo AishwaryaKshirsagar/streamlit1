@@ -20,8 +20,6 @@ def main():
 #         image = Image.open('images\one.jpg')
 #         st.image(image, caption=' ',width = 730)
         
-        html_temp = '<img src="https://img00.deviantart.net/bef5/i/2017/007/9/f/walking_through_the_winter_forest_by_caillean_photography-daulss7.jpg" alt="img" height="500" width="700">'
-        st.markdown(html_temp, unsafe_allow_html = True)
         
         title = '<p style="font-family:Sans-serif; color:White; font-size: 20px;">Certain Events can make you feel sad, anxious, surprised, excited or shocked. You can still make yourself feel better by watching a movie which would relax you, listening to songs which may calm you down or maybe read an adventure book!!</p>'
         st.markdown(title, unsafe_allow_html=True)
@@ -235,18 +233,17 @@ def main():
 
     if rad == "Home":       
 
-        st.balloons()
         name = st.text_input("Your Name: ")
 
         if st.button("Submit"):
             st.title("Hey There! {name}.".format(name = name))
 
-#         image = Image.open('images\smoke2.jpg')
-#         st.image(image, caption=' ',width = 700)
-
         title = '<p style="font-family:Lucida Handwriting; color:White; font-size: 40px;">Every day is a new day, a fresh morning for a new start. Start it with a cheerful smile on your face and hopes in your heart. </p>'
         st.markdown(title, unsafe_allow_html=True)
 
+        html_temp = '<img src="https://img00.deviantart.net/bef5/i/2017/007/9/f/walking_through_the_winter_forest_by_caillean_photography-daulss7.jpg" alt="img" height="500" width="700">'
+        st.markdown(html_temp, unsafe_allow_html = True)
+        
         title = '''<p style="font-family:Lucida Handwriting; color:White; font-size: 25px;">We want to help people overcome the problems related to depression and mood swings by providing appropriate recommendations according to their mood. Study says that 43% Indians suffering from depression. 26 % were suffering mild depression, 11 % were feeling moderately depressed, and 6 % were facing severe symptoms of depression. Most of the times we ourselves don't know whether we are experiencing depression. If we ignore this for longer time then it can get severe after some time. To prevent this to happen, we can analyze the emotions and help lift up the mood. </p>'''
         st.markdown(title, unsafe_allow_html=True)
 
