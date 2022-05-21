@@ -20,7 +20,7 @@ def main():
 #         image = Image.open('images\one.jpg')
 #         st.image(image, caption=' ',width = 730)
         
-        html_temp = '<img src="https://melodica.ae/wp-content/uploads/2017/11/girl_with_headphones_music_m-min.jpg" alt="img">'
+        html_temp = '<img src="https://img00.deviantart.net/bef5/i/2017/007/9/f/walking_through_the_winter_forest_by_caillean_photography-daulss7.jpg" alt="img" height="500" width="700">'
         st.markdown(html_temp, unsafe_allow_html = True)
         
         title = '<p style="font-family:Sans-serif; color:White; font-size: 20px;">Certain Events can make you feel sad, anxious, surprised, excited or shocked. You can still make yourself feel better by watching a movie which would relax you, listening to songs which may calm you down or maybe read an adventure book!!</p>'
