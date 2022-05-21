@@ -238,7 +238,7 @@ def main():
         if st.button("Submit"):
             st.title("Hey There! {name}.".format(name = name))
 
-        title = '<p style="font-family:Lucida Handwriting; color:White; font-size: 40px;">Every day is a new day, a fresh morning for a new start. Start it with a cheerful smile on your face and hopes in your heart. </p>'
+        title = '<p style="font-family:Lucida Handwriting; color:White; font-size: 30px;">Every day is a new day, a fresh morning for a new start. Start it with a cheerful smile on your face and hopes in your heart. </p>'
         st.markdown(title, unsafe_allow_html=True)
 
         html_temp = '<img src="https://img00.deviantart.net/bef5/i/2017/007/9/f/walking_through_the_winter_forest_by_caillean_photography-daulss7.jpg" alt="img" height="500" width="700">'
